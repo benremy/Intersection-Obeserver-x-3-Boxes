@@ -1,4 +1,4 @@
-const hiddenElements = document.querySelectorAll('.hidden');
+const hiddenElements = document.querySelectorAll('section');
 
 const observerCallback = entries => {
     entries.forEach(entry => {
