@@ -3,3 +3,6 @@ Exploring the capabilities of intersection Observer API since its the root of mo
 
 # Scratch
 ![alt text](image.png)
+
+# Instruction
+Serve w/ `npx serve`
