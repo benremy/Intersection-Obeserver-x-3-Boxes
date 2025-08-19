@@ -13,15 +13,14 @@ section {
     place-items: center;
     align-content: center;
     min-height: 100vh;
-}
-
-section {
     opacity: 0;
-    transition: all 5s;
-    transform: scale(0.2)
+    transition: all 5s;;
+    filter: blur(10px);
+    transform: scale(0.2) translateX(-100%);
 }
 
 .show {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1) translateX(0);
+    filter: blur(0);
 }
